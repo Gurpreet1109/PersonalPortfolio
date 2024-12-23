@@ -1,0 +1,26 @@
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+  }
+  .firstSection div {
+    width: 30%;
+  }
+  .firstLeftSection {
+    font-size: 2rem;
+    text-align: left;
+    display: flex;
+    margin: 61px;
+    flex-direction: column;
+  }
+  .firstLeftSection div {
+    width: 95%;
+  }
+  .firstLeftSection .purple {
+    color: blueviolet;
+  }
+  .firstRightSection img {
+    width: 100%;
+  }
+  #element {
+    color: blueviolet;
+  }

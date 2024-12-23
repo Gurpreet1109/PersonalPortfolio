@@ -1,0 +1,46 @@
+.secondSection {
+    margin: auto;
+    max-width: 76vw;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 400px;
+  }
+  .text-gray {
+    color: gray;
+  }
+  .secondSection .box {
+    background-color: white;
+    width: 76vw;
+    display: flex;
+    justify-content: space-around;
+    height: 2px;
+    margin: 22px;
+  }
+  .secondSection .vertical {
+    background-color: white;
+    height: 75px;
+    width: 1px;
+  }
+  
+  .secondSection .image-top {
+    position: relative;
+    width: 34px;
+    top: -34px;
+  }
+  .vertical-title {
+    position: relative;
+    top: 37px;
+    width: 150px;
+  }
+  .vertical-desc {
+    position: relative;
+    top: 47px;
+    width: 150px;
+    font-size: 12px;
+    color: gray;
+  }
+  .vertical div a {
+    text-decoration: none;
+    color: #4c5387;
+  }
